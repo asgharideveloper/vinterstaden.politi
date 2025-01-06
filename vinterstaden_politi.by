@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinterstaden RP Politi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0055a5;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinterstaden RP Politi</h1>
+    </header>
+    <nav>
+        <a href="#om-oss">Om oss</a>
+        <a href="#avdelinger">Avdelinger</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#nyheter">Nyheter</a>
+    </nav>
+    <main>
+        <section id="om-oss">
+            <h2>Om oss</h2>
+            <p>Vinterstaden RP Politi arbeider for trygghet og sikkerhet i Vinterstaden. Vi håndterer alt fra patruljering til spesialoperasjoner.</p>
+        </section>
+        <section id="avdelinger">
+            <h2>Avdelinger</h2>
+            <ul>
+                <li>Operativ enhet</li>
+                <li>Etterforskningsenhet</li>
+                <li>Beredskapstroppen</li>
+            </ul>
+        </section>
+        <section id="kontakt">
+            <h2>Kontaktinformasjon</h2>
+            <p>Adresse: 2312 Vinterstaden, Postboks: Oppland Politistasjon, 2313 Vinterstaden</p>
+        </section>
+        <section id="nyheter">
+            <h2>Nyheter</h2>
+            <p>Hold deg oppdatert med de siste nyhetene fra Vinterstaden RP Politi.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vinterstaden RP Politi</p>
+    </footer>
+</body>
+</html>
